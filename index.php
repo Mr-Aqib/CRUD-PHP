@@ -30,6 +30,7 @@
 </div>
 </div>
 <button class="btn btn-success my-3 w-100">Submit</button>
+<a href="./index-Read-data.php" class="btn btn-success my-3 w-100">Show Data</a>
     </form>
 </body>
 </html>
