@@ -7,5 +7,5 @@ $age=$_POST['age'];
 $dob=$_POST['dob'];
 $update="UPDATE students_data Set Name='$name' ,Email='$email', Age=$age, Dob='$dob' WHERE Id=$id";
 mysqli_query( $connection, $update );
-header("Location:http://localhost/CRUD/index-Read-data.php");
+header("Location:http://localhost/CRUD/");
 ?>

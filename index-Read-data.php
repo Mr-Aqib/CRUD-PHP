@@ -54,6 +54,10 @@
     </tr>
 </tbody>
     </table>
+   
 </div>
+<div class="col-lg-6">
+        <a href='./index.php' class="btn btn-success">Main-Page</a>
+    </div>
 </body>
 </html>
