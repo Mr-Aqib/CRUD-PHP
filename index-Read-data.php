@@ -21,6 +21,7 @@
         <td>Date of Birth</td>
         <td>Gender</td>
         <td>Dlete Data Row</td>
+        <td>Update</td>
     </tr>
         </thead>
 <tbody>
@@ -41,10 +42,10 @@
                 <td><?php  echo $row ['Dob'] ?></td>
                 <td><?php  echo $row ['Gender'] ?></td>
                <td> <a  href="./delete-data.php?id=<?php echo $row['Id']?>" class="btn btn-danger">Delete</a></td>
+               <td><a href="./update_data.php?id=<?php echo $row['Id']?>" class="btn btn-success">Updte_Data</a></td>
             </tr>
             <?php
              }
-
             }
             ?>
        
