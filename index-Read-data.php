@@ -40,7 +40,7 @@
                 <td><?php  echo $row ['Age'] ?></td>
                 <td><?php  echo $row ['Dob'] ?></td>
                 <td><?php  echo $row ['Gender'] ?></td>
-               <td> <button class="btn btn-danger">Delete</button></td>
+               <td> <a  href="./delete-data.php?id=<?php echo $row['Id']?>" class="btn btn-danger">Delete</a></td>
             </tr>
             <?php
              }
